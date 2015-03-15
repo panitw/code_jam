@@ -226,7 +226,6 @@ module.exports = {
         manager.noMoreData();
     },
     solve: function (data, done) {
-        var startCol = 0;
         var inPath = data[0][0];
         var outPath = data[0][1];
         var mw = new MazeWalker();
